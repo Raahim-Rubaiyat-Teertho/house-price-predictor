@@ -14,7 +14,7 @@ with st.form(key = "form1"):
     hotwater = st.radio(label='Is there a hot water supply?', options=['Yes', 'No'])
     airconditioning = st.radio(label='Is it air conditioned?', options=['Yes', 'No'])
     parking = st.number_input(label='Enter the total number of parking spaces', step=1)
-    prefarea = st.radio(label='Is it is a major city?', options=['Yes', 'No'])
+    prefarea = st.radio(label='Is it in a major city?', options=['Yes', 'No'])
     furnishingstatus = st.radio(label='Select the furnishing status', options=['Furnished', 'Semi-Furnished', 'Unfurnished'])
     submit = st.form_submit_button(label = "Submit")
 
